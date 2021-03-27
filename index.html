@@ -8,7 +8,7 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <style>
-         body{
+        body{
          font-family: sans-serif;
          
          text-align: center;
@@ -48,7 +48,15 @@
         li{
             font-family: 'Courier New', Courier, monospace;
         }
+        .experienceList{
+            font-family: sans-serif;
+        }
+        #resume{
+            padding-bottom: 5%;
+        }
     </style>
+  </head>
+  
     <body  data-spy="scroll" data-target=".navbar" data-offset="10">
 
     <nav class="navbar navbar-expand-md bg-dark navbar-dark  fixed-top" style="margin-bottom: 20%">
@@ -77,11 +85,11 @@
         </div>
     </nav>
 
-    </head>
+    
 
     <div id="home" > 
         <div class="card">
-            <p>Laura Ashley Roesler<br> &#9672<br>Web Developer</p>
+            <p>Laura Ashley Roesler<br> &#9672<br>Software Engineer</p>
         </div>
         
     </div> <!--home-->
@@ -89,16 +97,16 @@
     <div id="about" style="margin-bottom:20%">
             <h2 style="margin-bottom: 5%;">A<span>bout m</span>e</h2>
            
-            <img src="profSelfie.jpg" style="height:12em; width: 10em; margin-bottom: 5%;" class="img-thumbnail" alt="selfie">
+            <img src="profSelfie.JPG" style="height:12em; width: 10em; margin-bottom: 5%;" class="img-thumbnail" alt="selfie">
                     
-        
+                        <h3>Experienced Software Engineer</h3>
+                        <p>Backend Development</p>
                         <h3>Georgia State University Graduate</h3>
                         <p>Graduated Fall 2018 </p>
                         <p>B.S. in Computer Science</p>
                         <h3>Intern at Turner Broadcasting</h3>
-                        <P>Experience with full stack web development</P>
-                        <h3>Experience at HP Enterprise</h3>
-                        <p>Worked in Service Operations to ensure communication of ongoing tasks </p>
+                        <P>Full stack web developer</P>
+          
                    
 
     </div> <!--about-->
@@ -111,13 +119,13 @@
                 <h4 style="padding-top: 2em;"><span>Contact Info</span></h4>
                 <p>Atlanta, GA</p>
                 <a style="color:rgb(6, 106, 136)" href="www.linkedin.com/in/lauraaroesler"> www.linkedin.com/in/lauraaroesler</a><br> 
-                <a style="color:rgb(6, 106, 136)" href="https://github.com/lroseler">https://github.com/lroseler</a><br> 
+                <a style="color:rgb(6, 106, 136)" href="https://github.com/Lroesler07">https://github.com/Lroesler07</a><br> 
                 <a style="color:rgb(6, 106, 136)" href="Laura.roesler@outlook.com">Laura.roesler@outlook.com</a>
                 <h6><span>Programming Languages</span></h6>
                 <ul>
+                    <li>Golang</li>
                     <li>Java</li>
                     <li>JavaScript</li>
-                    <li>PHP</li>
                 </ul>
                 <h6><span>Scripting Languages</span></h6>
                 <ul>
@@ -135,9 +143,11 @@
                 </ul>
                 <h6><span>Markup Languages</span></h6>
                 <ul>
+                    <li>XML</li>
+                    <li>JSON</li>
+                    <li>YAML</li>
                     <li>HTML5</li>
                     <li>CSS</li>
-                    <li>XML</li>
                     <li>JSX</li>
                 </ul>
                 <h6><span>Education</span></h6>
@@ -165,23 +175,33 @@
                     <li>LinkedIn Learning: JavaScript Essential Training</li>
                     <li>LinkedIn Learning: React.js Essential Training</li>
                 </ul>
-                <h6><span>Military Certifications</span></h6>
-                <ul>
-                    <li>Army Acheievement Medal</li>
-                    <li>Trained by the US Army as an Intelligence Analyst</li>
-                    <li>Blue Force Tracking Systems</li>
-                </ul>
                </div>
                <div class="col-md-6 col-sm-12" style="text-align:left; padding-left: 5%">
                 <h4 style="padding-top: 2em;"><span>Summary</span></h4>
-                <p style="text-align:left">College graduate with experience in Object Oriented Programming, web development and design, and software development. Highly motivated self-managing business professional with insight, creativity, focused determination, and loyalty. Understands and can meet the demands of a fast-paced environment with familiarity of both Waterfall and Agile/Scrum methodologies to analyze and refactor pervious code. Understands the importance of communication as well as information security. Exceptional attention to detail with a high value for work ethic.</p><br>
+                <p style="text-align:left">B.S. in Computer Science with experience in Object Oriented Design, software development, full-stack web development. Understands and can meet the demands of a fast-paced environment. Have been praised for exceptional attention to detail with a high value for work ethic. Can work both creatively and analytically in a problem-solving environment.</p><br>
                 <br>
                 <h4><span>Experience</span></h4>
-                <h6><b>Turner Brodcasting January 2019-May 2019</b></h5>
-                <p style="text-align:left">Practice with building an entire interactive website that collects and displays information from several databases across the company and provide updates as content is migrated from one source to another. Experience with creating a ASP.NET platform to test the development of the website in different environments from local to production. Training with API calls and SQL queries to concatenate the appropriate data. Engaged in Scrum and Agile methodologies. Involvement with version control Git, Gitlab, GitHub. </p><br>
+                <h6><b>ParkMobile LLC  </h6>
+                <h6>July 2019-Present</b></h6> 
+                <p style="text-align:left">Contributed to building several microservices as the company migrated from a monolithic structure to a component-based system. Each service focused on a service layer architecture with a goal of clean code and clean architecture so the services could be individually scaled and individually deployed. </p><br>
+                <ul>
+                    <li class="experienceList">Constructed CRUD API endpoints and documented the related Open API/Swagger files</li>
+                    <li class="experienceList">Assembled queues and streams to facilitate event-driven architecture to communicate with other services</li>
+                    <li class="experienceList">Maintained unit, integration, and end to end testing with an average of 85% coverage of each codebase</li>
+                    <li class="experienceList">Understands how to preserve a CI/CD pipeline with automated QA in place utilizing Postman tests</li>
+                    <li class="experienceList">Experience with monitoring and responding to alerts in a timely manner while deploying the appropriate solution </li>
+                </ul>
                 <br>
-                <h6><b>HP Enterprise NMCI Contract August 2011-August 2012</b></h5>
-                <p style="text-align:left">Uses all available resources to determine the significance and reliability of incoming information to prepare situational reports and executive briefings. Engages the supporting capabilities to complete high-priority tasks in order for the organization to rapidly meet shifting demands. Contributes to the team's ability to meet target goals through participation in continuous service improvement initiatives. Maintains a high level of customer satisfaction by clarifying customer expectations, taking ownership of the assignments and ensuring that they are met in a timely manner. Responds to service, product, technical, and customer relations questions. </p>
+                <br>
+                <h6><b>Turner Brodcasting Internship</h6>
+                <h6> January 2019-May 2019</b></h6>
+                <p style="text-align:left">Practice with building an entire interactive website that collects and displays information from several databases across the company and provide updates as content is migrated from one source to another. Experience with creating a ASP.NET platform to test the development of the website in different environments from local to production. Training with API calls and SQL queries to concatenate the appropriate data. Engaged in Scrum and Agile methodologies. Involvement with version control Git, Gitlab, GitHub. </p><br>
+                <ul>
+                    <li class="experienceList">Experience with creating a framework to test the development of the website in different environments from local to production </li>
+                    <li class="experienceList">Trained with API calls and SQL queries to concatenate the appropriate data</li>
+                    <li class="experienceList">Engaged in Scrum and Agile methodologies </li>
+                </ul>
+                <br>
                </div>
             </div>
         </div>
@@ -200,16 +220,16 @@
     <div id="contact" style="margin-bottom: 30%; margin-top: 6em">
             <h2  style="margin-top:10%; margin-bottom: 5%">Co<span>ntact M</span>e</h2>
             <div class="conatianer-fluid">
-            <a href="https://github.com/lroseler"><img src="github.png" style="height:8em; width: 8em; margin-bottom: 5%;" class="img-thumbnail" alt="github"></a>
+            <a href="https://github.com/Lroesler07"><img src="github.png" style="height:8em; width: 8em; margin-bottom: 5%;" class="img-thumbnail" alt="github"></a>
             <a href="https://www.linkedin.com/in/laura-roesler-74a82a165/"><img src="linkedin.png" style="height:8em; width:8em; margin-bottom: 5%;" class="img-thumbnail" alt="linkedin"></a>
             <a href="https://www.facebook.com/laura.roesler.5"><img src="facebook.jpg" style="height:8em; width: 8em; margin-bottom: 5%;" class="img-thumbnail" alt="facebook"></a>
             <a href="https://www.instagram.com/fredlar1/"><img src="instagram.jpg" style="height:8em; width: 8em; margin-bottom: 5%;" class="img-thumbnail" alt="instagram"></a>
             </div>
     </div> <!--contact-->
-    </body>
+    
 
         <div class="footer">
-            <p>&#10023; <sm>Created by Laura Roesler</sm> &#10023;</p>
+            <p>&#10023; <sm>Developed and Designed by Laura Roesler</sm> &#10023;</p>
         </div>
     
     
